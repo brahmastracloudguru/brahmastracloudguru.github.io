@@ -23,13 +23,34 @@ body {
     color: white;
     /* White text */
     text-align: center;
-    padding: 30px;
+    padding: 80px 20px 40px;
+    /* Extra top padding to accommodate logo */
     border-radius: 8px;
+    position: relative;
+    /* To position the logo */
+}
+
+.banner .logo {
+    position: absolute;
+    top: 20px;
+    /* Position logo above the header content */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 200px;
+    /* Adjust logo size */
+    height: auto;
+    background-color: white;
+    /* Optional: Round the logo if needed */
+    padding: 0px;
+    /* Optional: Add padding around the logo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for depth */
 }
 
 .banner h1 {
     font-size: 2.5rem;
-    margin: 0;
+    margin: 20px 0 0;
+    /* Space below the logo */
 }
 
 .banner p {
