@@ -18,9 +18,9 @@ body {
 
 /* Banner styling */
 .banner {
-    background-color: #007bff;
+    background-color: #f9f9f9;
     /* Blue background for header */
-    color: white;
+    color: rgb(246, 171, 20);
     /* White text */
     text-align: center;
     padding: 80px 20px 40px;
@@ -36,15 +36,15 @@ body {
     /* Position logo above the header content */
     left: 50%;
     transform: translateX(-50%);
-    max-width: 200px;
+    max-width: 210px;
     /* Adjust logo size */
     height: auto;
-    background-color: white;
+    background-color: none;
     /* Optional: Round the logo if needed */
     padding: 0px;
     /* Optional: Add padding around the logo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Optional: Add shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    
 }
 
 .banner h1 {
@@ -91,7 +91,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 20px 0;
-    background-color: #007bff;
+    background-color: #f9f9f9;
     /* Blue background for footer */
     border-radius: 8px;
     color: white;
