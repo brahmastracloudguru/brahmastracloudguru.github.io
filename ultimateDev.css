@@ -11,14 +11,14 @@ body {
 .container {
     width: 80%;
     /* Reduced width for a compact layout */
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px 0;
 }
 
 /* Banner styling */
 .banner {
-    background-color: #3F51B5;
+    background-color: #007bff;
     /* Blue background for header */
     color: white;
     /* White text */
@@ -50,7 +50,7 @@ body {
 .content-section h2 {
     margin: 0 0 15px;
     font-size: 1.8rem;
-    color: #3F51B5;
+    color: #007bff;
     /* Blue title font color */
 }
 
@@ -70,7 +70,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 20px 0;
-    background-color: #3F51B5;
+    background-color: #007bff;
     /* Blue background for footer */
     border-radius: 8px;
     color: white;
@@ -83,7 +83,7 @@ footer {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #5C6BC0;
+    background-color: #3c95f5;
     /* Slightly lighter blue for button */
     padding: 10px 20px;
     border-radius: 5px;
