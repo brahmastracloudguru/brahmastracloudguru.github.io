@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Banner styling */
+.banner {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Section styling */
+.content-section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.section-one {
+    background-color: #607D8B;
+}
+
+.section-two {
+    background-color: #3F51B5;
+}
+
+.content-section h2 {
+    margin: 0 0 15px;
+    font-size: 1.8rem;
+}
+
+.content-section ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.content-section ul li {
+    margin: 8px 0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    border-radius: 8px;
+}
+
+.register-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #3F51B5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.register-link:hover {
+    background-color: #5C6BC0;
+}
