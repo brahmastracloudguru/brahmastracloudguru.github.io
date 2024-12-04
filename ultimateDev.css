@@ -3,21 +3,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: white;
+    /* Background set to white */
     color: #333;
 }
 
 .container {
     width: 80%;
-    max-width: 800px;
+    /* Reduced width for a compact layout */
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px 0;
 }
 
 /* Banner styling */
 .banner {
-    background: linear-gradient(to right, #4CAF50, #81C784);
+    background-color: #3F51B5;
+    /* Blue background for header */
     color: white;
+    /* White text */
     text-align: center;
     padding: 30px;
     border-radius: 8px;
@@ -39,25 +43,22 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: #fff;
-}
-
-.section-one {
-    background-color: #607D8B;
-}
-
-.section-two {
-    background-color: #3F51B5;
+    background-color: #f9f9f9;
+    /* Light gray background for sections */
 }
 
 .content-section h2 {
     margin: 0 0 15px;
     font-size: 1.8rem;
+    color: #3F51B5;
+    /* Blue title font color */
 }
 
 .content-section ul {
     padding-left: 20px;
     list-style: disc;
+    color: black;
+    /* Pointer content font color set to black */
 }
 
 .content-section ul li {
@@ -69,21 +70,27 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 20px 0;
-    background-color: #4CAF50;
+    background-color: #3F51B5;
+    /* Blue background for footer */
     border-radius: 8px;
+    color: white;
+    /* White text for footer */
 }
 
 .register-link {
     color: white;
+    /* White text for link */
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #3F51B5;
+    background-color: #5C6BC0;
+    /* Slightly lighter blue for button */
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
 }
 
 .register-link:hover {
-    background-color: #5C6BC0;
+    background-color: #7986CB;
+    /* Lighter blue on hover */
 }
