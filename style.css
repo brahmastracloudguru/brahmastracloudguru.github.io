@@ -71,3 +71,27 @@ footer {
     /* Circular profile picture */
     object-fit: cover;
 }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    margin-bottom: 25px;
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #0d47a1;
+    margin-bottom: 5px;
+}
+
+.feature-description {
+    margin-left: 10px;
+}
