@@ -71,13 +71,3 @@ footer {
     /* Circular profile picture */
     object-fit: cover;
 }
-
-.highlights {
-    list-style: none;
-    padding: 0;
-}
-
-.highlights li {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
