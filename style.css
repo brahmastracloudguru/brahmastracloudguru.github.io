@@ -93,3 +93,14 @@ footer {
     border-radius: 8px;
 }
 
+@media screen and (max-width: 768px) {
+    .trainer-container {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .trainer-container img {
+        width: 100%;
+        height: auto;
+    }
+}
