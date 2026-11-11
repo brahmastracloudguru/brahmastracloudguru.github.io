@@ -73,18 +73,15 @@ footer {
 }
 
 .trainer-container {
-    background-image: url('AboutTrainer.png');
-    background-size: contain;
-    /* fits whole image inside the box */
-    background-repeat: no-repeat;
-    /* stops tiling in empty space */
-    background-position: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
-    min-height: 500px;
-    /* give the box room to show the image */
 }
 
 .trainer-container img {
@@ -96,9 +93,14 @@ footer {
     border-radius: 8px;
 }
 
-  @media (max-width: 768px) {
-      .trainer-container {
-          min-height: 350px;
-          flex-direction: column;
-      }
-  }
+@media screen and (max-width: 768px) {
+    .trainer-container {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .trainer-container img {
+        width: 100%;
+        height: auto;
+    }
+}
