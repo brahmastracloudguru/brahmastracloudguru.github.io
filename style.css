@@ -104,3 +104,55 @@ footer {
         height: auto;
     }
 }
+
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+    .header-container {
+        padding: 25px;
+        gap: 15px;
+    }
+
+    .profile-pic {
+        margin-left: 10px;
+    }
+
+    .profile-pic img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 25px 15px;
+        gap: 15px;
+
+        background-position: center;
+    }
+
+    .profile-pic {
+        margin-left: 0;
+    }
+
+    .profile-pic img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+    .header-container {
+        padding: 20px 10px;
+        gap: 12px;
+    }
+
+    .profile-pic img {
+        width: 75px;
+        height: 75px;
+    }
+}
