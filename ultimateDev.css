@@ -115,3 +115,16 @@ footer {
     background-color: #7986CB;
     /* Lighter blue on hover */
 }
+
+.aboutTrainer {
+    background-color: #f9f9f9;
+    /* Blue background for header */
+    color: rgb(246, 171, 20);
+    /* White text */
+    text-align: center;
+    padding: 80px 20px 40px;
+    /* Extra top padding to accommodate logo */
+    border-radius: 8px;
+    position: relative;
+    /* To position the logo */
+}
