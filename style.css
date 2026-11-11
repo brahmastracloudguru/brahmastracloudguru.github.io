@@ -71,31 +71,17 @@ footer {
     /* Circular profile picture */
     object-fit: cover;
 }
-/*
+
 .trainer-container {
     background-image: url('AboutTrainer.png');
     background-size: contain;
-    /* fits whole image inside the box 
+    /* fits whole image inside the box */
     background-repeat: no-repeat;
-    /* stops tiling in empty space 
+    /* stops tiling in empty space */
     background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    min-height: 500px;
-    /* give the box room to show the image 
+    min-height: 500px; 
 } 
-*/
-.trainer-container {
-    background-image: url('AboutTrainer.png');
-    background-size: cover;
-    background-position: top center;
-    /* or center, bottom, left, etc. */
-    background-repeat: no-repeat;
-    min-height: 500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-}
